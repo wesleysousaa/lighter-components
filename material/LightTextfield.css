@@ -1,0 +1,120 @@
+:root .cnb5MW_textField[color="lightgreen"], .cnb5MW_textFieldDefault[color="lightgreen"] {
+  --color-green-primary: #41a941;
+  --color-green-secondary: #52cf52;
+  --color-green-shadow: #52cf52f0;
+}
+
+:root .cnb5MW_textField[color="lightpurple"], .cnb5MW_textFieldDefault[color="lightpurple"] {
+  --color-green-primary: #b239d4;
+  --color-green-secondary: #c96dd9;
+  --color-green-shadow: #8544d4d2;
+}
+
+:root .cnb5MW_textField[color="lightblue"], .cnb5MW_textFieldDefault[color="lightblue"] {
+  --color-green-primary: #1e88e5;
+  --color-green-secondary: #42a5f5;
+  --color-green-shadow: #64b5f6;
+}
+
+:root .cnb5MW_textField[color="lightyellow"], .cnb5MW_textFieldDefault[color="lightyellow"] {
+  --color-green-primary: #c0b232;
+  --color-green-secondary: #fff59d;
+  --color-green-shadow: #fff176;
+}
+
+:root .cnb5MW_textField[color="dark"], .cnb5MW_textFieldDefault[color="dark"] {
+  --color-green-primary: #061827;
+  --color-green-secondary: #192127;
+  --color-green-shadow: #0e1820;
+}
+
+:root .cnb5MW_textField[color="lightred"], .cnb5MW_textFieldDefault[color="lightred"] {
+  --color-green-primary: #ff5252;
+  --color-green-secondary: #ff5733;
+  --color-green-shadow: #ff3d00;
+}
+
+* {
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+}
+
+.cnb5MW_textField, .cnb5MW_textFieldDefault {
+  width: 10em;
+  height: 2em;
+  font-display: inherit;
+  font-size: large;
+  transition: all 1s;
+}
+
+.cnb5MW_textField {
+  border: none;
+  border-radius: .5em;
+  outline: auto #363535;
+}
+
+.cnb5MW_textField::placeholder, .cnb5MW_textFieldDefault::placeholder {
+  color: #7d7e7e;
+  pointer-events: none;
+  margin: 0;
+  font-size: large;
+  transition: all 1s;
+  display: flex;
+  position: relative;
+  top: 0;
+  left: .2em;
+}
+
+.cnb5MW_textField:focus, .cnb5MW_textFieldDefault:focus {
+  -webkit-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  -moz-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  transition: all 1s;
+  animation: .5s both cnb5MW_animacaoOpening;
+}
+
+.cnb5MW_textField:focus {
+  outline: auto var(--color-green-secondary);
+}
+
+.cnb5MW_textField:focus::placeholder, .cnb5MW_textFieldDefault:focus::placeholder {
+  color: var(--color-green-primary);
+  font-size: x-small;
+  transition: all .5s;
+  top: -1.3em;
+}
+
+.cnb5MW_textField:not(:focus), .cnb5MW_textFieldDefault:not(:focus) {
+  animation: .5s both cnb5MW_animacaoClosing;
+}
+
+.cnb5MW_textFieldDefault:focus {
+  border-bottom: 3px solid var(--color-green-secondary);
+}
+
+.cnb5MW_textFieldDefault {
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+}
+
+@keyframes cnb5MW_animacaoOpening {
+  from {
+    width: 10em;
+  }
+
+  to {
+    width: 13em;
+  }
+}
+
+@keyframes cnb5MW_animacaoClosing {
+  from {
+    width: 13em;
+  }
+
+  to {
+    width: 10em;
+  }
+}
+
+/*# sourceMappingURL=LightTextfield.css.map */
