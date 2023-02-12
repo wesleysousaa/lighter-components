@@ -1,1 +1,2 @@
-# lighter-components
+# Lighter Components
+
