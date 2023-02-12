@@ -1,0 +1,127 @@
+:root .textField[color = 'lightgreen'], .textFieldDefault[color = 'lightgreen']{
+  --color-green-primary: rgb(65, 169, 65);
+  --color-green-secondary: rgb(82, 207, 82);
+  --color-green-shadow: rgba(82, 207, 82, 0.94);
+}
+
+:root .textField[color = 'lightpurple'], .textFieldDefault[color = 'lightpurple']{
+  --color-green-primary: #b239d4;
+  --color-green-secondary: #c96dd9;
+  --color-green-shadow: #8544d4d2;
+}
+
+:root .textField[color = 'lightblue'], .textFieldDefault[color = 'lightblue']{
+  --color-green-primary: #1E88E5;
+  --color-green-secondary: #42A5F5;
+  --color-green-shadow: #64B5F6;
+}
+
+:root .textField[color = 'lightyellow'], .textFieldDefault[color = 'lightyellow']{
+  --color-green-primary: #c0b232;
+  --color-green-secondary: #FFF59D;
+  --color-green-shadow: #FFF176;
+}
+
+:root .textField[color = 'dark'], .textFieldDefault[color = 'dark']{
+  --color-green-primary: #061827;
+  --color-green-secondary: #192127;
+  --color-green-shadow: #0e1820;
+}
+
+:root .textField[color = 'lightred'], .textFieldDefault[color = 'lightred']{
+  --color-green-primary: #FF5252;
+  --color-green-secondary: #FF5733;
+  --color-green-shadow: #FF3D00;
+}
+
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.textField,
+.textFieldDefault {
+  width: 10em;
+  height: 2em;
+  font-size: large;
+  transition: 1s;
+  font-display: inherit;
+}
+
+.textField{
+  outline: auto rgb(54, 53, 53);
+  border: none;
+  border-radius: 0.5em;
+}
+
+.textField::placeholder,
+.textFieldDefault::placeholder {
+  transition: 1s;
+  display: flex;
+  font-size: large;
+  position: relative;
+  color: rgb(125, 126, 126);
+  top: 0em;
+  left: 0.2em;
+  margin: 0;
+  pointer-events: none;
+}
+
+.textField:focus,
+.textFieldDefault:focus {
+  animation: animacaoOpening 0.5s both;
+  transition: 1s;
+  -webkit-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  -moz-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+}
+
+.textField:focus{
+  outline: auto var(--color-green-secondary);
+}
+
+.textField:focus::placeholder,
+.textFieldDefault:focus::placeholder {
+  transition: 0.5s;
+  color: var(--color-green-primary);
+  font-size: x-small;
+  top: -1.3em;
+}
+
+
+.textField:not(:focus),
+.textFieldDefault:not(:focus) {
+  animation: animacaoClosing 0.5s both;
+}
+
+.textFieldDefault:focus{
+  border-bottom: 3px solid var(--color-green-secondary);
+}
+
+/* TextField padrão */
+
+.textFieldDefault {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+@keyframes animacaoOpening {
+  from {
+    width: 10em;
+  }
+
+  to {
+    width: 13em;
+  }
+}
+
+@keyframes animacaoClosing {
+  from {
+    width: 13em;
+  }
+
+  to {
+    width: 10em;
+  }
+}

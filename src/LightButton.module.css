@@ -1,0 +1,67 @@
+:root .button[color = 'lightgreen']{
+  --color-green-primary: rgb(65, 169, 65);
+  --color-green-secondary: rgb(82, 207, 82);
+  --color-green-shadow: rgba(82, 207, 82, 0.94);
+}
+
+:root .button[color = 'lightpurple']{
+  --color-green-primary: #b239d4;
+  --color-green-secondary: #c96dd9;
+  --color-green-shadow: #8544d4d2;
+}
+
+:root .button[color = 'lightblue']{
+  --color-green-primary: #1E88E5;
+  --color-green-secondary: #42A5F5;
+  --color-green-shadow: #64B5F6;
+}
+
+:root .button[color = 'lightyellow']{
+  --color-green-primary: #c0b232;
+  --color-green-secondary: #FFF59D;
+  --color-green-shadow: #FFF176;
+}
+
+:root .button[color = 'dark']{
+  --color-green-primary: #061827;
+  --color-green-secondary: #192127;
+  --color-green-shadow: #0e1820;
+}
+
+:root .button[color = 'lightred']{
+  --color-green-primary: #FF5252;
+  --color-green-secondary: #FF5733;
+  --color-green-shadow: #FF3D00;
+}
+
+.button {
+  width: 10em;
+  height: 30%;
+  background-color: var(--color-green-secondary);
+  border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  color: #FFF;
+  transition: 0.5s;
+  margin: 0.5em;
+  font-weight: bolder;
+}
+
+.button:hover {
+  transition: 0.5s;
+  background-color: var(--color-green-primary);
+}
+
+
+.button:focus {
+  transition: 0.5s;
+  outline: none;
+  border: none;
+
+  -webkit-box-shadow: 2px 0px 25px 3px var(--color-green-shadow);
+  -moz-box-shadow: 2px 0px 25px 3px var(--color-green-shadow);
+  box-shadow: 2px 0px 25px 3px var(--color-green-shadow);
+
+}
