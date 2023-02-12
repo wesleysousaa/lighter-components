@@ -1,0 +1,66 @@
+:root .J0eWgq_button[color="lightgreen"] {
+  --color-green-primary: #41a941;
+  --color-green-secondary: #52cf52;
+  --color-green-shadow: #52cf52f0;
+}
+
+:root .J0eWgq_button[color="lightpurple"] {
+  --color-green-primary: #b239d4;
+  --color-green-secondary: #c96dd9;
+  --color-green-shadow: #8544d4d2;
+}
+
+:root .J0eWgq_button[color="lightblue"] {
+  --color-green-primary: #1e88e5;
+  --color-green-secondary: #42a5f5;
+  --color-green-shadow: #64b5f6;
+}
+
+:root .J0eWgq_button[color="lightyellow"] {
+  --color-green-primary: #c0b232;
+  --color-green-secondary: #fff59d;
+  --color-green-shadow: #fff176;
+}
+
+:root .J0eWgq_button[color="dark"] {
+  --color-green-primary: #061827;
+  --color-green-secondary: #192127;
+  --color-green-shadow: #0e1820;
+}
+
+:root .J0eWgq_button[color="lightred"] {
+  --color-green-primary: #ff5252;
+  --color-green-secondary: #ff5733;
+  --color-green-shadow: #ff3d00;
+}
+
+.J0eWgq_button {
+  width: 10em;
+  height: 30%;
+  background-color: var(--color-green-secondary);
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: .4em;
+  margin: .5em;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  transition: all .5s;
+}
+
+.J0eWgq_button:hover {
+  background-color: var(--color-green-primary);
+  transition: all .5s;
+}
+
+.J0eWgq_button:focus {
+  -webkit-box-shadow: 2px 0px 25px 3px var(--color-green-shadow);
+  -moz-box-shadow: 2px 0px 25px 3px var(--color-green-shadow);
+  box-shadow: 2px 0px 25px 3px var(--color-green-shadow);
+  border: none;
+  outline: none;
+  transition: all .5s;
+}
+
+/*# sourceMappingURL=LightButton.css.map */
