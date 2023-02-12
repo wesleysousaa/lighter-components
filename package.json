@@ -1,6 +1,6 @@
 {
   "name": "lighter-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "./README.md",
   "source" : "src/LightTextfield.js",
   "main": "material/LightTextfield.js",
