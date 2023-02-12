@@ -29,7 +29,7 @@
 }
 
 :root .button[color = 'lightred']{
-  --color-green-primary: #FF5252;
+  --color-green-primary: rgb(216, 70, 70);
   --color-green-secondary: #FF5733;
   --color-green-shadow: #FF3D00;
 }

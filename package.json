@@ -2,8 +2,8 @@
   "name": "lighter-components",
   "version": "1.0.0",
   "description": "",
-  "source" : "src/LightTextfield.js",
-  "main": "material/LightTextfield.js",
+  "source" : "src/LightButton.js",
+  "main": "material/LightButton.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch",
