@@ -36,7 +36,7 @@
 
 .button {
   width: 10em;
-  height: 30%;
+  height: 2em;
   background-color: var(--color-green-secondary);
   border: none;
   border-radius: 0.4em;
