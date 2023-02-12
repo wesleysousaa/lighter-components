@@ -45,6 +45,7 @@
   font-size: large;
   transition: 1s;
   font-display: inherit;
+  margin: 0.5em;
 }
 
 .textField{
