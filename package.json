@@ -1,0 +1,29 @@
+{
+  "name": "lighter-components",
+  "version": "1.0.0",
+  "description": "",
+  "source" : "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleysousaa/lighter-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleysousaa/lighter-components/issues"
+  },
+  "homepage": "https://github.com/wesleysousaa/lighter-components#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
