@@ -1,6 +1,6 @@
 # Lighter Components
 
-![gifComponents](https://user-images.githubusercontent.com/47366440/218289451-86f039e7-f7ac-4874-8c9e-cd52962b342e.gif)
+![components](https://user-images.githubusercontent.com/47366440/218290321-730727b7-904e-4fa5-9884-d480172b0eb4.gif)
 
 ## Geting Starter
 ### Install
@@ -41,3 +41,25 @@ Sets the color of the element
 <LightTextfield label="Email" color='lightred' />
 <LightTextfield label="Email" color='dark' />
 ```
+
+#### Type
+Sets the type of the element (Password or Text)
+
+> Types types
+```
+<LightTextfield label="Email" type='password' />
+<LightTextfield label="Email" type='text' />
+```
+
+#### label
+Defines the name that will appear as a placeholder
+
+> Label example
+
+```
+<LightTextfield label="Email" />
+```
+
+### Button
+
+
