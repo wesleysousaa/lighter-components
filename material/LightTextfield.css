@@ -85,6 +85,7 @@
 }
 
 .cnb5MW_textField:not(:focus), .cnb5MW_textFieldDefault:not(:focus) {
+  background-color: #f000(255, 255, 255);
   animation: .5s both cnb5MW_animacaoClosing;
 }
 
@@ -93,6 +94,7 @@
 }
 
 .cnb5MW_textFieldDefault {
+  background-color: #0000;
   border: none;
   border-bottom: 2px solid #000;
   outline: none;

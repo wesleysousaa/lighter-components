@@ -46,7 +46,6 @@
   font-size: large;
   transition: 1s;
   font-display: inherit;
-  background-color: transparent;
 }
 
 .textField{
@@ -70,7 +69,6 @@
 
 .textField:focus,
 .textFieldDefault:focus {
-  background-color: rgba(255, 0, 0, 0)(255, 255, 255);
   animation: animacaoOpening 0.5s both;
   transition: 1s;
   -webkit-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
@@ -94,6 +92,7 @@
 .textField:not(:focus),
 .textFieldDefault:not(:focus) {
   animation: animacaoClosing 0.5s both;
+  background-color: rgba(255, 0, 0, 0)(255, 255, 255);
 }
 
 .textFieldDefault:focus{
@@ -106,6 +105,7 @@
   outline: none;
   border: none;
   border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: transparent;
 }
 
 
