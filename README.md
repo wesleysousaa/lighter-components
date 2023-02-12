@@ -15,7 +15,7 @@ Customized input
 
 #### Attributes
 
-##### Variant
+##### variant
 Defines which textfield style
 
 ![Variant textfield](https://user-images.githubusercontent.com/47366440/218289818-b53506fe-6a03-4b7a-9d0a-e656cc81773d.png)
@@ -27,7 +27,7 @@ Defines which textfield style
 <LightTextfield label="Email" variant='default' />
 ```
 
-##### Color
+##### color
 Sets the color of the element
 
 ![colorgif](https://user-images.githubusercontent.com/47366440/218290193-3ab830b0-71df-4205-9ec3-62adc8841421.gif)
@@ -42,7 +42,7 @@ Sets the color of the element
 <LightTextfield label="Email" color='dark' />
 ```
 
-##### Type
+##### type
 Sets the type of the element (Password or Text)
 
 > Types types
@@ -66,7 +66,7 @@ Defines the name that will appear as a placeholder
 
 #### Attributes
 
-##### Color
+##### color
 Sets the color of the element
 
 > Color types
