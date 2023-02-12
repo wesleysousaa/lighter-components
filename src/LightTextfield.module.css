@@ -40,12 +40,13 @@
 
 .textField,
 .textFieldDefault {
+  margin: 0.5em;
   width: 10em;
   height: 2em;
   font-size: large;
   transition: 1s;
   font-display: inherit;
-  margin: 0.5em;
+  background-color: transparent;
 }
 
 .textField{
@@ -69,6 +70,7 @@
 
 .textField:focus,
 .textFieldDefault:focus {
+  background-color: rgba(255, 0, 0, 0)(255, 255, 255);
   animation: animacaoOpening 0.5s both;
   transition: 1s;
   -webkit-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
