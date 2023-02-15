@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './icon.module.css'
 
 const SuccessIcon = ({ color }) => {
   return (
@@ -9,7 +10,7 @@ const SuccessIcon = ({ color }) => {
           :
           'https://user-imag{es.githubusercontent.com/47366440/219195604-957054d8-4ffc-4e8e-8f28-0c13f08cf78d.png'}
       alt={color ? 'SuccessIcon' + color : 'SuccessIconDark'}
-      style={{ width: '2em' }}
+      className={styles.iconImage}
     />
   )
 }
