@@ -1,0 +1,28 @@
+.JX734W_modalArea {
+  width: 100%;
+  height: 100%;
+  background-color: #00000090;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+.JX734W_modal {
+  background-color: #fff;
+  border-radius: .2em;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+}
+
+p {
+  color: #9f9797;
+}
+
+.JX734W_aviso {
+  color: brown;
+}
+
+/*# sourceMappingURL=LightModal.css.map */
