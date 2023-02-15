@@ -107,7 +107,7 @@ Defines a handler to close the modal
 
 > Open example
 ```
-<LightModal open={*boolean variable*} onClose={*handle*} />
+<LightModal open={*boolean variable*} onClose={*handler*} />
 ```
 
 ## Conclusion
