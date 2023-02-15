@@ -90,7 +90,7 @@ Defines the name that will appear as a button
 
 ### Modal
 
-![buttons](https://user-images.githubusercontent.com/47366440/218290512-a38b5ef5-5551-48ae-8fc6-d8b46e46f158.gif)
+![Captura de tela de 2023-02-15 11-05-20](https://user-images.githubusercontent.com/47366440/219050526-d338cd7b-5158-4b39-a0c7-094e4e335c92.png)
 
 #### Attributes
 
