@@ -1,6 +1,6 @@
 {
   "name": "lighter-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "./README.md",
   "source" : "src/LightModal.js",
   "main": "material/LightModal.js",
