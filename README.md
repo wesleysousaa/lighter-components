@@ -17,7 +17,6 @@ Customized input
 
 ```
 import LightTextfield from 'lighter-components/material/LightTextfield'
-
 ```
 
 #### Attributes
