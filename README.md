@@ -88,6 +88,28 @@ Defines the name that will appear as a button
 <LightButton label="Send" />
 ```
 
+### Modal
+
+![buttons](https://user-images.githubusercontent.com/47366440/218290512-a38b5ef5-5551-48ae-8fc6-d8b46e46f158.gif)
+
+#### Attributes
+
+##### open
+Defines whether the modal is open or not
+
+> Open example
+```
+<LightModal open={*boolean variable*} />
+```
+
+##### onClose
+Defines a handler to close the modal
+
+> Open example
+```
+<LightModal open={*boolean variable*} onClose={*handle*} />
+```
+
 ## Conclusion
 This library is still in early versions, new components will arrive later.
 
