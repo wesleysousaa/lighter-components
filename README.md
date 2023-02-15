@@ -127,6 +127,16 @@ Defines a handler to close the modal
 <LightModal open={*boolean variable*} onClose={*handler*} />
 ```
 
+## Icons
+
+### Importation
+```
+import WarningIcon from 'lighter-components/material-icons/WarningIcon'
+import InfoIcon from 'lighter-components/material-icons/InfoIcon'
+import ErrorIcon from 'lighter-components/material-icons/ErrorIcon'
+import SuccessIcon from 'lighter-components/material-icons/SuccessIcon'
+```
+
 ## Conclusion
 This library is still in early versions, new components will arrive later.
 
