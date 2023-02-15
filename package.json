@@ -2,8 +2,8 @@
   "name": "lighter-components",
   "version": "1.0.6",
   "description": "./README.md",
-  "source" : "src/LightModal.js",
-  "main": "material/LightModal.js",
+  "source" : "src/Teste.js",
+  "main": "material/Teste.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch",
