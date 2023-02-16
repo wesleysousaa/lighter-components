@@ -1,0 +1,89 @@
+:root .floatMessageArea[position='topLeft'] {
+  justify-content: flex-start;
+  align-items: flex-start;
+  --top-animation: 20px;
+}
+
+:root .floatMessageArea[position='topRight'] {
+  justify-content: flex-end;
+  align-items: flex-start;
+  --top-animation: 20px;
+}
+
+:root .floatMessageArea[position='bottomLeft'] {
+  justify-content: flex-start;
+  align-items: flex-end;
+  --top-animation: 100%;
+}
+
+:root .floatMessageArea[position='bottomRight'] {
+  justify-content: flex-end;
+  align-items: flex-end;
+  --top-animation: 100%;
+}
+
+:root .floatMessage[show='false'] {
+  animation: animationHide 0.5s both;
+}
+
+:root .floatMessage[show='true'] {
+  animation: animationShow 0.5s both;
+}
+
+.floatMessageArea{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.floatMessage {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5em;
+  margin: 0.5em;
+  max-width: fit-content;
+  max-height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(221, 44, 44);
+  border-radius: 0.3em;
+}
+
+.floatMessage p {
+  margin: 0;
+  margin-left: 1em;
+  color: #FFF;
+  font-size: larger;
+}
+
+
+@keyframes animationShow {
+  from {
+    position: relative;
+    opacity: 0%;
+    top: 20px;
+  }
+
+  to {
+    position: relative;
+    opacity: 100%;
+    top: 0px;
+  }
+}
+
+@keyframes animationHide {
+  from {
+    position: relative;
+    opacity: 100%;
+    top: 0px;
+  }
+
+  to {
+    position: relative;
+    top: 10px;
+    opacity: 0%;
+  }
+}
