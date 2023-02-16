@@ -1,9 +1,9 @@
 {
   "name": "lighter-components",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "./README.md",
-  "source" : "src/WarningIcon.js",
-  "main": "material/WarningIcon.js",
+  "source" : "src/SuccessIcon.js",
+  "main": "material-icons/SuccessIcon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch",
