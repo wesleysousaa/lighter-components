@@ -34,10 +34,6 @@
   --color-green-shadow: #FF3D00;
 }
 
-* {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .textField,
 .textFieldDefault {
   margin: 0.5em;
