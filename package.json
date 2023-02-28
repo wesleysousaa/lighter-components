@@ -1,9 +1,9 @@
 {
   "name": "lighter-components",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "./README.md",
-  "source" : "src/FloatMessage.js",
-  "main": "material/FloatMessage.js",
+  "source" : "src/LightTextfield.js",
+  "main": "material/LightTextfield.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch",

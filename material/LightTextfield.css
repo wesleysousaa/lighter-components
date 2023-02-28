@@ -34,10 +34,6 @@
   --color-green-shadow: #ff3d00;
 }
 
-* {
-  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
-}
-
 .cnb5MW_textField, .cnb5MW_textFieldDefault {
   width: 10em;
   height: 2em;
