@@ -1,6 +1,5 @@
 require("./LightModal.css");
 var $9celP$reactjsxruntime = require("react/jsx-runtime");
-require("react");
 
 function $parcel$interopDefault(a) {
   return a && a.__esModule ? a.default : a;
@@ -16,21 +15,20 @@ $parcel$defineInteropFlag(module.exports);
 
 $parcel$export(module.exports, "default", () => $e4ca54d0b7afa564$export$2e2bcd8739ae039);
 
-
 var $b32e7cd84d921379$exports = {};
 
-$parcel$export($b32e7cd84d921379$exports, "aviso", () => $b32e7cd84d921379$export$76e88a136b351074, (v) => $b32e7cd84d921379$export$76e88a136b351074 = v);
-$parcel$export($b32e7cd84d921379$exports, "modal", () => $b32e7cd84d921379$export$96e4b36520c26a2c, (v) => $b32e7cd84d921379$export$96e4b36520c26a2c = v);
 $parcel$export($b32e7cd84d921379$exports, "modalArea", () => $b32e7cd84d921379$export$67193abf9f7b78c, (v) => $b32e7cd84d921379$export$67193abf9f7b78c = v);
-var $b32e7cd84d921379$export$76e88a136b351074;
-var $b32e7cd84d921379$export$96e4b36520c26a2c;
+$parcel$export($b32e7cd84d921379$exports, "modal", () => $b32e7cd84d921379$export$96e4b36520c26a2c, (v) => $b32e7cd84d921379$export$96e4b36520c26a2c = v);
+$parcel$export($b32e7cd84d921379$exports, "aviso", () => $b32e7cd84d921379$export$76e88a136b351074, (v) => $b32e7cd84d921379$export$76e88a136b351074 = v);
 var $b32e7cd84d921379$export$67193abf9f7b78c;
-$b32e7cd84d921379$export$76e88a136b351074 = `JX734W_aviso`;
-$b32e7cd84d921379$export$96e4b36520c26a2c = `JX734W_modal`;
+var $b32e7cd84d921379$export$96e4b36520c26a2c;
+var $b32e7cd84d921379$export$76e88a136b351074;
 $b32e7cd84d921379$export$67193abf9f7b78c = `JX734W_modalArea`;
+$b32e7cd84d921379$export$96e4b36520c26a2c = `JX734W_modal`;
+$b32e7cd84d921379$export$76e88a136b351074 = `JX734W_aviso`;
 
 
-const $e4ca54d0b7afa564$var$LightModal = ({ open: open , children: children , onClose: onClose  })=>{
+const $e4ca54d0b7afa564$var$LightModal = ({ open: open , children: children , onClose: onClose , bgColor: bgColor  })=>{
     function closeWithModalAreaClick(e) {
         if (e.className.includes("modalArea")) onClose();
     }
@@ -41,6 +39,9 @@ const $e4ca54d0b7afa564$var$LightModal = ({ open: open , children: children , on
             onClick: (e)=>closeWithModalAreaClick(e.target),
             children: /*#__PURE__*/ (0, $9celP$reactjsxruntime.jsxs)("div", {
                 className: (0, (/*@__PURE__*/$parcel$interopDefault($b32e7cd84d921379$exports))).modal,
+                style: {
+                    backgroundColor: bgColor
+                },
                 children: [
                     children && children,
                     !children && /*#__PURE__*/ (0, $9celP$reactjsxruntime.jsxs)((0, $9celP$reactjsxruntime.Fragment), {

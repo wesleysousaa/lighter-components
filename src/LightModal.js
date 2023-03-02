@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import styles from './LightModal.module.css'
 
-const LightModal = ({ open, children, onClose }) => {
+const LightModal = ({ open, children, onClose, bgColor }) => {
 
   function closeWithModalAreaClick(e) {
     if (e.className.includes('modalArea')) {
@@ -13,7 +12,7 @@ const LightModal = ({ open, children, onClose }) => {
     <>
       {open && (
         <div className={styles.modalArea} value={open} onClick={(e) => closeWithModalAreaClick(e.target)}>
-          <div className={styles.modal}>
+          <div className={styles.modal} style={{ backgroundColor: bgColor }}>
             {children && children}
             {!children && (
               <>
