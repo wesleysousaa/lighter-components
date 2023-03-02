@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './LightButton.module.css'
 
-const LightButton = ({ label, color }) => {
+const LightButton = (props) => {
 
   const colors = [
     'lightblue',
@@ -13,11 +13,12 @@ const LightButton = ({ label, color }) => {
   ]
 
   return (
-    <button 
-    className={styles.button}
-    color={colors.includes(color) ? color : 'lightblue'}
+    <button
+      {...props}
+      className={styles.button}
+      color={colors.includes(props.color) ? props.color : 'lightblue'}
     >
-      {label}
+      {props.label}
     </button>
   )
 }

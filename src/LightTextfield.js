@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './LightTextfield.module.css'
 
-const LightTextfield = ({ label, variant, color, type }) => {
+const LightTextfield = (props) => {
 
   const colors = [
     'lightblue',
@@ -14,14 +14,16 @@ const LightTextfield = ({ label, variant, color, type }) => {
 
   return (
     <input
-      type={type === 'password' ? 'password' : 'text'}
+      type={props.type === 'password' ? 'password' : 'text'}
+
       className={
-        variant === 'outline' ? 
-        styles.textField : 
-        styles.textFieldDefault
+        props.variant === 'outline' ?
+          styles.textField :
+          styles.textFieldDefault
       }
-      color={colors.includes(color) ? color : 'lightblue'}
-      placeholder={label} />
+      {...props}
+      color={colors.includes(props.color) ? props.color : 'lightblue'}
+      placeholder={props.label} />
 
   )
 }

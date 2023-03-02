@@ -19,15 +19,15 @@ $parcel$export(module.exports, "default", () => $e4ca54d0b7afa564$export$2e2bcd8
 
 var $b32e7cd84d921379$exports = {};
 
+$parcel$export($b32e7cd84d921379$exports, "aviso", () => $b32e7cd84d921379$export$76e88a136b351074, (v) => $b32e7cd84d921379$export$76e88a136b351074 = v);
 $parcel$export($b32e7cd84d921379$exports, "modal", () => $b32e7cd84d921379$export$96e4b36520c26a2c, (v) => $b32e7cd84d921379$export$96e4b36520c26a2c = v);
 $parcel$export($b32e7cd84d921379$exports, "modalArea", () => $b32e7cd84d921379$export$67193abf9f7b78c, (v) => $b32e7cd84d921379$export$67193abf9f7b78c = v);
-$parcel$export($b32e7cd84d921379$exports, "aviso", () => $b32e7cd84d921379$export$76e88a136b351074, (v) => $b32e7cd84d921379$export$76e88a136b351074 = v);
+var $b32e7cd84d921379$export$76e88a136b351074;
 var $b32e7cd84d921379$export$96e4b36520c26a2c;
 var $b32e7cd84d921379$export$67193abf9f7b78c;
-var $b32e7cd84d921379$export$76e88a136b351074;
+$b32e7cd84d921379$export$76e88a136b351074 = `JX734W_aviso`;
 $b32e7cd84d921379$export$96e4b36520c26a2c = `JX734W_modal`;
 $b32e7cd84d921379$export$67193abf9f7b78c = `JX734W_modalArea`;
-$b32e7cd84d921379$export$76e88a136b351074 = `JX734W_aviso`;
 
 
 const $e4ca54d0b7afa564$var$LightModal = ({ open: open , children: children , onClose: onClose  })=>{
