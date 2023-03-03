@@ -1,6 +1,6 @@
 import styles from './LightModal.module.css'
 
-const LightModal = ({ open, children, onClose, bgColor }) => {
+const LightModal = (props) => {
 
   function closeWithModalAreaClick(e) {
     if (e.className.includes('modalArea')) {
@@ -10,11 +10,12 @@ const LightModal = ({ open, children, onClose, bgColor }) => {
 
   return (
     <>
-      {open && (
-        <div className={styles.modalArea} value={open} onClick={(e) => closeWithModalAreaClick(e.target)}>
-          <div className={styles.modal} style={{ backgroundColor: bgColor }}>
-            {children && children}
-            {!children && (
+      {...props}
+      {props.open && (
+        <div className={styles.modalArea} value={props.open} onClick={(e) => closeWithModalAreaClick(e.target)}>
+          <div className={styles.modal} style={{ backgroundColor: props.bgColor }}>
+            {props.children && props.children}
+            {!props.children && (
               <>
                 <p className={styles.aviso}>*Atenção, seu modal está sem corpo</p>
                 <h2>Titulo do Modal</h2>
