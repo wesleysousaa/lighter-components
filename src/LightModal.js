@@ -4,16 +4,15 @@ const LightModal = (props) => {
 
   function closeWithModalAreaClick(e) {
     if (e.className.includes('modalArea')) {
-      onClose()
+      props.onClose()
     }
   }
 
   return (
     <>
-      {...props}
       {props.open && (
         <div className={styles.modalArea} value={props.open} onClick={(e) => closeWithModalAreaClick(e.target)}>
-          <div className={styles.modal} style={{ backgroundColor: props.bgColor }}>
+          <div className={styles.modal} style={{ backgroundColor: props.bgColor }} {...props}>
             {props.children && props.children}
             {!props.children && (
               <>
