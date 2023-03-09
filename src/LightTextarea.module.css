@@ -1,0 +1,129 @@
+:root .textArea[color = 'lightgreen'], .textAreaDefault[color = 'lightgreen']{
+  --color-green-primary: rgb(65, 169, 65);
+  --color-green-secondary: rgb(82, 207, 82);
+  --color-green-shadow: rgba(82, 207, 82, 0.94);
+}
+
+:root .textArea[color = 'lightpurple'], .textAreaDefault[color = 'lightpurple']{
+  --color-green-primary: #b239d4;
+  --color-green-secondary: #c96dd9;
+  --color-green-shadow: #8544d4d2;
+}
+
+:root .textArea[color = 'lightblue'], .textAreaDefault[color = 'lightblue']{
+  --color-green-primary: #1E88E5;
+  --color-green-secondary: #42A5F5;
+  --color-green-shadow: #64B5F6;
+}
+
+:root .textArea[color = 'lightyellow'], .textAreaDefault[color = 'lightyellow']{
+  --color-green-primary: #c0b232;
+  --color-green-secondary: #FFF59D;
+  --color-green-shadow: #FFF176;
+}
+
+:root .textArea[color = 'dark'], .textAreaDefault[color = 'dark']{
+  --color-green-primary: #061827;
+  --color-green-secondary: #192127;
+  --color-green-shadow: #0e1820;
+}
+
+:root .textArea[color = 'lightred'], .textAreaDefault[color = 'lightred']{
+  --color-green-primary: #FF5252;
+  --color-green-secondary: #FF5733;
+  --color-green-shadow: #FF3D00;
+}
+
+.textArea:disabled, .textAreaDefault:disabled{
+  background-color: rgba(78, 79, 79, 0.768);
+  color: #FFF;
+  border-style: none;
+  outline-style: none;
+  transition: 1s;
+}
+
+.textArea,
+.textAreaDefault {
+  margin: 0.5em;
+  font-size: large;
+  transition: 0.1s;
+  font-display: inherit;
+}
+
+.textArea{
+  outline: auto rgb(54, 53, 53);
+  border: none;
+  border-radius: 0.5em;
+}
+
+.textArea::placeholder,
+.textAreaDefault::placeholder {
+  transition: 1s;
+  display: flex;
+  font-size: large;
+  color: rgb(125, 126, 126);
+  margin: 0;
+  pointer-events: none;
+}
+
+.textArea:focus,
+.textAreaDefault:focus {
+  animation: animacaoOpening 0.5s both;
+  transition: 1s;
+  -webkit-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  -moz-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+  box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
+}
+
+.textArea:focus{
+  outline: auto var(--color-green-secondary);
+}
+
+.textArea:focus::placeholder,
+.textAreaDefault:focus::placeholder {
+  transition: 0.5s;
+  color: var(--color-green-primary);
+  font-size: x-small;
+  top: -1.3em;
+}
+
+
+.textArea:not(:focus),
+.textAreaDefault:not(:focus) {
+  animation: animacaoClosing 0.5s both;
+  background-color: rgba(255, 0, 0, 0)(255, 255, 255);
+}
+
+.textAreaDefault:focus{
+  border-bottom: 3px solid var(--color-green-secondary);
+}
+
+/* TextField padrão */
+
+.textAreaDefault {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: transparent;
+}
+
+
+@keyframes animacaoOpening {
+  from {
+    width: 10em;
+  }
+
+  to {
+    width: 13em;
+  }
+}
+
+@keyframes animacaoClosing {
+  from {
+    width: 13em;
+  }
+
+  to {
+    width: 10em;
+  }
+}
