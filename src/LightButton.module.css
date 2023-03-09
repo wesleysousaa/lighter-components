@@ -49,6 +49,12 @@
   font-weight: bolder;
 }
 
+.button:disabled{
+  background-color: rgba(78, 79, 79, 0.768);
+  transition: 1s;
+  pointer-events: none;
+}
+
 .button:hover {
   transition: 0.5s;
   background-color: var(--color-green-primary);
