@@ -69,7 +69,6 @@
   -moz-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
   box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
   transition: all 1s;
-  animation: .5s both _6mlr8q_animacaoOpening;
 }
 
 ._6mlr8q_textArea:focus {
@@ -85,7 +84,6 @@
 
 ._6mlr8q_textArea:not(:focus), ._6mlr8q_textAreaDefault:not(:focus) {
   background-color: #f000(255, 255, 255);
-  animation: .5s both _6mlr8q_animacaoClosing;
 }
 
 ._6mlr8q_textAreaDefault:focus {
@@ -97,26 +95,6 @@
   border: none;
   border-bottom: 2px solid #000;
   outline: none;
-}
-
-@keyframes _6mlr8q_animacaoOpening {
-  from {
-    width: 10em;
-  }
-
-  to {
-    width: 13em;
-  }
-}
-
-@keyframes _6mlr8q_animacaoClosing {
-  from {
-    width: 13em;
-  }
-
-  to {
-    width: 10em;
-  }
 }
 
 /*# sourceMappingURL=LightTextarea.css.map */

@@ -19,20 +19,12 @@ $parcel$export(module.exports, "default", () => $3e6e5507d54a429c$export$2e2bcd8
 
 var $2aa86b6987ee7e47$exports = {};
 
-$parcel$export($2aa86b6987ee7e47$exports, "textArea", () => $2aa86b6987ee7e47$export$d72b0b1d2d0e0735, (v) => $2aa86b6987ee7e47$export$d72b0b1d2d0e0735 = v);
 $parcel$export($2aa86b6987ee7e47$exports, "textAreaDefault", () => $2aa86b6987ee7e47$export$dac4cac4d2c4d379, (v) => $2aa86b6987ee7e47$export$dac4cac4d2c4d379 = v);
-$parcel$export($2aa86b6987ee7e47$exports, "animacaoOpening", () => $2aa86b6987ee7e47$export$e671861e36a6512f, (v) => $2aa86b6987ee7e47$export$e671861e36a6512f = v);
-$parcel$export($2aa86b6987ee7e47$exports, "animacaoClosing", () => $2aa86b6987ee7e47$export$b3d00dc989154e0, (v) => $2aa86b6987ee7e47$export$b3d00dc989154e0 = v);
-var $2aa86b6987ee7e47$export$d72b0b1d2d0e0735;
+$parcel$export($2aa86b6987ee7e47$exports, "textArea", () => $2aa86b6987ee7e47$export$d72b0b1d2d0e0735, (v) => $2aa86b6987ee7e47$export$d72b0b1d2d0e0735 = v);
 var $2aa86b6987ee7e47$export$dac4cac4d2c4d379;
-var $2aa86b6987ee7e47$export$e671861e36a6512f;
-var $2aa86b6987ee7e47$export$b3d00dc989154e0;
-$2aa86b6987ee7e47$export$d72b0b1d2d0e0735 = `_6mlr8q_textArea`;
+var $2aa86b6987ee7e47$export$d72b0b1d2d0e0735;
 $2aa86b6987ee7e47$export$dac4cac4d2c4d379 = `_6mlr8q_textAreaDefault`;
-$2aa86b6987ee7e47$export$e671861e36a6512f = `_6mlr8q_animacaoOpening`;
-$2aa86b6987ee7e47$export$e671861e36a6512f;
-$2aa86b6987ee7e47$export$b3d00dc989154e0 = `_6mlr8q_animacaoClosing`;
-$2aa86b6987ee7e47$export$b3d00dc989154e0;
+$2aa86b6987ee7e47$export$d72b0b1d2d0e0735 = `_6mlr8q_textArea`;
 
 
 const $3e6e5507d54a429c$var$LightTextarea = (props)=>{

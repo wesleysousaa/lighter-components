@@ -1,6 +1,6 @@
 {
   "name": "lighter-components",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "./README.md",
   "source" : "src/LightTextarea.js",
   "main": "material/LightTextarea.js",

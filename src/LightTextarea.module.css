@@ -68,7 +68,6 @@
 
 .textArea:focus,
 .textAreaDefault:focus {
-  animation: animacaoOpening 0.5s both;
   transition: 1s;
   -webkit-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
   -moz-box-shadow: -1px 2px 68px -6px var(--color-green-shadow);
@@ -90,7 +89,6 @@
 
 .textArea:not(:focus),
 .textAreaDefault:not(:focus) {
-  animation: animacaoClosing 0.5s both;
   background-color: rgba(255, 0, 0, 0)(255, 255, 255);
 }
 
@@ -108,22 +106,3 @@
 }
 
 
-@keyframes animacaoOpening {
-  from {
-    width: 10em;
-  }
-
-  to {
-    width: 13em;
-  }
-}
-
-@keyframes animacaoClosing {
-  from {
-    width: 13em;
-  }
-
-  to {
-    width: 10em;
-  }
-}
