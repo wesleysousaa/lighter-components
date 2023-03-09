@@ -43,6 +43,14 @@
   transition: all 1s;
 }
 
+.cnb5MW_textField:disabled, .cnb5MW_textFieldDefault:disabled {
+  color: #fff;
+  background-color: #4e4f4fc4;
+  border-style: none;
+  outline-style: none;
+  transition: all 1s;
+}
+
 .cnb5MW_textField {
   border: none;
   border-radius: .5em;
