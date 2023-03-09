@@ -1,6 +1,6 @@
 {
   "name": "lighter-components",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "./README.md",
   "source" : "src/LightButton.js",
   "main": "material/LightButton.js",
