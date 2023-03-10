@@ -1,8 +1,8 @@
 {
   "name": "lighter-components",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "./README.md",
-  "source" : "src/LightTextarea.js",
+  "source": "src/LightTextarea.js",
   "main": "material/LightTextarea.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,6 +24,7 @@
     "parcel": "^2.8.3"
   },
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0"
   }
 }
